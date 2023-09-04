@@ -1,20 +1,16 @@
 # UG2-AnalisisAlgoritma
-Buatlah sebuah program yang dapat menerima input berupa kalimat teks.
 
-Kemudian, program akan meminta pengguna memasukkan input berupa satu buah kata.
+Lakukan perbandingan kinerja dari fungsi iteratif dan fungsi rekursif untuk mendapatkan suku ke-n dari suatu Deret Ajaib. Perbandingan dilakukan dengan mencatat waktu yang diperlukan untuk mendapatkan suku Ajaib ke-1 sampai ke-100(nilai n) dengan kedua fungsi tersebut. Kemudian berdasarkan catatan waktu tersebut, buatlah tabel catatan waktu terhadap n.
 
-Program akan mengeluarkan output berupa jumlah kata yang berhasil ditemukan (case insensitive)
+Anda harus menghasilkan:
+1. Source code fungsi Deret Ajaib ke-n secara iteratif dan rekursif
+2. Tabel catatan waktu dari kedua fungsi tersebut, dengan nilai n= 1 sampai 100
 
+KETERANGAN:
+Deret ajaib ke-n maksudnya adalah suku ke-n dari deret bilangan yang 3 angka pertamanya sudah di tentukan yaitu 1,3,5 dan suku ke-4 dihitung dari suku ke-(n-2)*suku ke-(n/2) dengan pembulatan ke atas.
+U1 = 1
+U2 = 3
+U3 = 5
+U4 = U(n-2) * bulatkan((n : 2))
 
-
-Input:
-
-Saya pergi bersama teman saya dan saudara sAya ke rumah saYa naik mobil sayA yang baru
-
-saya
-
-
-
-Output:
-
-5
+Misal: suku ke-4 dihitung dari suku ke-(n/2) yaitu 3 dikali dengan suku ke-(n/2) yaitu 2, maka suku ke-4 adalah 3*2 = 6. Kemudian suku ke-5 dihitung dari n-2 yaitu 5 dikali dengan 5/2 yaitu 3. Maka suku ke-7 adalah 5*3 = 15
